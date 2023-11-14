@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta charset="UTF-8">
+    <title>ARKEANOS</title>
+    <style>
+        body {
+            background-image: url(arkfondo3.png);
+            background-position: center;
+            color: yellow;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Whitelist para el servidor ARKEANOS</h1>
+    <hr color="yellow"/>
+    <h3>Vamos a registrar tu personaje en el servidor para hacerle el seguimiento y así poder detectar cualquier tipo de trampa.</h3>
+    <form method="get" action="gracias.html" enctype="multipart/form-data">
+        <fieldset style="border-color: yellow;">
+            <legend><h3>Información Personal</h3></legend>
+            
+            <label for="nombre"><h4>Datos para registro y matchmaking: </h4></label>
+            <p>Indique su nombre en el juego: <input type="text" name="reg" required placeholder="Etokiii" tabindex="1"/></p>
+            <p>Indique un correo electrónico: <input type="email" name="reg" placeholder="ejemplo1@gmail.com" accesskey="a"/></p>
+            <p>Indique desde que plataforma va a juagr: <input type="checkbox" name="reg" checked="checked"/>PC <input type="checkbox" name="reg"/>Consola</p>
+            <p>Cuantas horas tienes en el juego: 
+            <br/><input type="radio" name="horas"> Menos de <u>100</u> horas.</p>
+            <p><input type="radio" name="horas">Entre <u>100</u> y <u>500</u> horas.</p>
+            <p><input type="radio" name="horas"> Entre <u>500</u> y <u>1000</u> horas.</p>
+            <p><input type="radio" name="horas"> Más de <u>1000</u> horas.</p>
+        </fieldset>
+
+        <p>Vale, a partir de ahora van a ser preguntas <u>personales</u>, las cuales los moderadores tendrán en cuenta:</p>
+        <p>Con que intención juegas ARK 
+            <select name="intencion">
+                <option value="asd">Ser el más fuerte del servidor</option>
+                <option value="asd">Farmear para la tribu</option>
+                <option value="asd">Disfrutar con los amigos y la gente</option>
+                <option value="asd">Acabar el juego estilo speedrun</option>
+                <option value="asd">Un poco de todo</option>
+            </select></p>
+        <p>Otra/s rezón/es <textarea name="otra" maxlength="150" placeholder="Escribe..." tabindex="2"></textarea>
+        <p>
+            Que es lo que más te gusta hacer en el juego, puedes seleccionar varias a la vez: <select name="opciones" multiple="multiple">
+                <option value="tam">Tamear</option>
+                <option value="const">Construir</option>
+                <option value="pvp">PvP</option>
+                <option value="pve">PvE</option>
+            </select></p>
+        <p><input type="text" size="41" name="creaSer" value="Este servidor lleva en pié desde 19 de enero de 2018" readonly="readonly"></p>
+        <fieldset style="border-color: yellow;">
+            <legend>Botones</legend>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+            <input type="text" size="41" name="creaSer" value="Este servidor lleva en pié desde 19 de enero de 2018" readonly="readonly">
+            <button type="button" onclick="alert('Apoyame en YouTube como NexxuzWorld')">Valorame</button>
+            <br/>¡😍Mandanos tu captura dentro de nuestro servidor😍!<input type="file"></br>
+            <a href="aw_ut2_01.html"><img src="logo.png" width="80" height="80" align="left"></a>
+            <a href="aw_ut2_02.html"><img src="flecha2.png" width="150" height="80" align="right"></a>
+        </fieldset>
+    </form>
+</body>
+</html>
